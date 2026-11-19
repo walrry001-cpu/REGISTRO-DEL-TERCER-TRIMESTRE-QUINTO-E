@@ -1,0 +1,19 @@
+{
+  "name": "Registro 5.° E · Tercer Trimestre · I.E. 82019 La Florida del Inca",
+  "short_name": "Registro 5E",
+  "description": "Registro de notas del tercer trimestre, 5.° grado sección E, I.E. N.° 82019 La Florida del Inca, Cajamarca.",
+  "lang": "es-PE",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1d4ed8",
+  "theme_color": "#1d4ed8",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
