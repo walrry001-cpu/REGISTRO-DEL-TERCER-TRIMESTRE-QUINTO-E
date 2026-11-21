@@ -1,0 +1,36 @@
+REGISTRO 5.° E — ACTUALIZACIÓN v2026-11-21-2
+=============================================
+
+QUÉ CAMBIÓ
+0. Nuevo ícono: "Evaluación de lectura — 5.° Grado Sección E". Los íconos tienen nombre nuevo (-v2): en GitHub BORRA la carpeta icons anterior y sube la nueva.
+1. Tabla de notas: la columna de nombres ya no tapa las evaluaciones.
+   - Los nombres se ven en varias líneas, angostos, y al lado las notas (NL) y la conclusión.
+   - En el celular se ocultan las columnas ID y Cód. Estudiante para ganar espacio.
+   - Casilla "📌 Fijar columna de nombres": desmárcala si quieres que todo se mueva junto.
+   - Los encabezados quedan fijos arriba al bajar.
+2. Corregido un error interno: al cambiar el estudiante en "Boletas" ya no se escribe un dato basura en el registro.
+3. Caché: sw.js borra TODOS los cachés anteriores al instalarse y la app se recarga sola con la versión nueva.
+   Tus notas NO se borran (están en el navegador del celular, no en el caché).
+4. En el encabezado aparece "v2026-11-21-2" para comprobar que ya tienes la versión nueva.
+
+ARCHIVOS PARA GITHUB (sube TODOS, en la raíz del repositorio)
+  index.html
+  sw.js
+  manifest.webmanifest
+  .nojekyll
+  icons/icono-192-v2.png
+  icons/icono-512-v2.png
+  icons/icono-maskable-512-v2.png
+  icons/apple-touch-icon-v2.png
+
+PASOS
+1. ANTES de actualizar, en la app actual toca "💾 Respaldo JSON" y guarda el archivo (por seguridad).
+2. En GitHub: borra los íconos viejos (icons/icon-192.png, icon-512.png, icon-maskable-512.png, apple-touch-icon.png) y luego repositorio > Add file > Upload files > arrastra los archivos (y la carpeta icons) > Commit changes.
+   Si ya existen, GitHub los reemplaza.
+3. Espera 1 o 2 minutos a que GitHub Pages publique.
+4. En el celular abre la app, ciérrala por completo y vuelve a abrirla (2 veces). Debe decir v2026-11-21-2 arriba.
+5. Si sigue la versión vieja: cierra la app, ábrela otra vez con internet. NO uses "Borrar datos del sitio":
+   eso sí borraría tus notas (si lo haces, usa "📂 Restaurar respaldo").
+
+PARA FUTURAS ACTUALIZACIONES
+Cambia el número de VERSION en la primera línea de sw.js (y el de index.html) y vuelve a subir los archivos.
