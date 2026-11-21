@@ -30,6 +30,15 @@ button.upd{background:var(--B);border-color:var(--B);color:#fff;animation:p 1.4s
 #rep table{border-collapse:collapse;width:100%;margin:6px 0 10px;min-width:0}#rep th,#rep td{border:1px solid #444;padding:4px 6px;text-align:left;font-size:12px;background:#fff;color:#000;position:static}
 #rep th{background:#e5e9f2}#rep h3{font-size:14px;margin:14px 0 4px;border-bottom:1px solid #999}#rep h4{font-size:13px;margin:10px 0 2px}#rep ul,#rep ol{margin:2px 0 6px;padding-left:22px}#rep p{margin:4px 0}
 #sw{display:none;position:fixed;inset:0;background:var(--bg);z-index:58;overflow:auto}#sw .tb{position:sticky;top:0;background:var(--pri);padding:8px 12px;display:flex;gap:8px;align-items:center;z-index:3;color:#fff}#sw .tb button{padding:8px 10px;color:var(--fg)}#sbody{padding:12px 14px;max-width:760px;margin:0 auto}#sbody select{font:inherit;padding:6px;border:1px solid var(--bd);border-radius:6px;background:var(--bg);color:var(--fg);width:100%}
+#nw{display:none;position:fixed;inset:0;background:var(--bg);z-index:59;overflow:auto}#nw .tb{position:sticky;top:0;background:var(--pri);padding:8px 12px;display:flex;gap:8px;align-items:center;z-index:3;color:#fff}#nw .tb button{padding:8px 10px;color:var(--fg)}
+#nbody{padding:12px 14px 30px;max-width:760px;margin:0 auto;font-size:14px;line-height:1.5}#nbody h2{font-size:16px;margin:0 0 4px}#nbody h3{font-size:15px;margin:0 0 6px}#nbody p{margin:4px 0}#nbody ul{margin:4px 0;padding-left:20px}#nbody li{margin:3px 0}
+.nc{border:1px solid var(--bd);border-left-width:6px;border-radius:10px;padding:10px 12px;margin:10px 0;background:var(--card)}.nc.g{border-left-color:var(--AD)}.nc.o{border-left-color:var(--B)}.nc.r{border-left-color:var(--C)}.nc.b{border-left-color:var(--pri)}
+#nbody table{border-collapse:collapse;width:100%;margin:6px 0;font-size:13px}#nbody th,#nbody td{border:1px solid var(--bd);padding:5px 6px;text-align:center;position:static;background:var(--bg)}#nbody th{background:var(--hd)}#nbody td.l{text-align:left}
+.sbt{display:flex;gap:6px;margin:6px 0}.sbt button{padding:6px 10px;font-size:13px}#sims{font:inherit;padding:8px;border:1px solid var(--bd);border-radius:8px;background:var(--bg);color:var(--fg);width:100%}
+.sa{border:1px solid var(--bd);border-radius:10px;padding:8px;margin:8px 0;background:var(--bg)}.sa.f{border-color:var(--C)}.sa .t{display:flex;justify-content:space-between;gap:8px;font-weight:700;font-size:13px}.sa .bd2{font-size:12px;white-space:nowrap}.sa .bd2.f{color:var(--C)}.sa .bd2.ok{color:var(--AD)}
+.sc{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-top:6px}.sc span{font-size:12px;flex:1;line-height:1.25}.pl{display:flex;gap:3px}.pl button{padding:6px 0;min-width:40px;font-size:12px;border-radius:6px}
+.pl button.on.C{background:var(--C);color:#fff;border-color:var(--C)}.pl button.on.B{background:var(--B);color:#fff;border-color:var(--B)}.pl button.on.A{background:var(--A);color:#fff;border-color:var(--A)}.pl button.on.AD{background:var(--AD);color:#fff;border-color:var(--AD)}
+.nw2{background:#fff7e0;color:#4a3500;border:1px solid #f0c040;border-radius:8px;padding:8px 10px;margin:8px 0;font-size:13px}@media(prefers-color-scheme:dark){.nw2{background:#3a2f10;color:#ffe9a8;border-color:#7a6320}}
 #bw .tb a.btn{text-decoration:none;padding:7px 10px;font-size:13px}
 #bw{display:none;position:fixed;inset:0;background:#e9ecf1;z-index:55;overflow:auto}
 #bw .tb{position:sticky;top:0;background:#1d4ed8;padding:8px 12px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;z-index:3;color:#fff}#bw .tb button,#bw .tb select{padding:7px 10px;font:inherit;max-width:100%}#bnote{font-size:11px}
@@ -42,7 +51,7 @@ button.upd{background:var(--B);border-color:var(--B);color:#fff;animation:p 1.4s
 #dbody{padding:12px 14px;max-width:760px;margin:0 auto}.dcat{border:1px solid var(--bd);border-radius:10px;padding:10px;margin-bottom:10px;background:var(--card)}
 .bd{background:var(--pri);color:#fff;border-radius:10px;padding:0 8px;font-size:12px}.gd{font-size:12px;color:var(--mut);margin:4px 0 6px}
 .dd{border-top:1px dashed var(--bd);padding-top:6px;margin-top:6px;display:grid;gap:5px}.dd input,.dd textarea,.dd select{font:inherit;padding:6px;border:1px solid var(--bd);border-radius:6px;background:var(--bg);color:var(--fg);width:100%}
-/* v2026-11-21-2: tabla de notas - la columna de nombres ya no tapa las evaluaciones */
+/* v2026-11-21-4: tabla de notas - la columna de nombres ya no tapa las evaluaciones */
 .wrap{max-height:calc(100vh - 170px);max-height:calc(100dvh - 170px);min-height:260px;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
 #tb table{border-collapse:separate;border-spacing:0}
 #tb th,#tb td{border:0;border-right:1px solid var(--bd);border-bottom:1px solid var(--bd)}
@@ -57,11 +66,12 @@ button.upd{background:var(--B);border-color:var(--B);color:#fff;animation:p 1.4s
 @media(max-width:700px){#tb .id{display:none}#tb td{padding:6px 5px}}
 </style></head><body>
 <header><h1>Registro de Notas — 5.° “E” — TERCER TRIMESTRE 2026</h1>
-<div class="sub">I.E. N.° 82019 “La Florida del Inca” · Primaria · Prof. Walter Rodrigo Arribasplata Chavarry · <b id="ver">v2026-11-21-2</b></div></header>
+<div class="sub">I.E. N.° 82019 “La Florida del Inca” · Primaria · Prof. Walter Rodrigo Arribasplata Chavarry · <b id="ver">v2026-11-21-4</b></div></header>
 <div class="bar">
 <label class="btn pri">📄 Subir PDF de evaluaciones<input id="f" type="file" accept="application/pdf" multiple hidden></label>
-<button id="gr" class="pri">📝 Generar informe técnico pedagógico</button><button id="dc">📎 Documentos sección VII</button><button id="bc">🧾 Boletas</button><button id="sb">⚖ Situación final</button><button id="ex">📊 Exportar a Excel (.xlsx)</button><button id="bk">💾 Respaldo JSON</button><label class="btn">📂 Restaurar respaldo<input id="rsf" type="file" accept=".json,application/json" hidden></label><button id="cl" class="dng">🗑 Borrar todo</button></div>
+<button id="gr" class="pri">📝 Generar informe técnico pedagógico</button><button id="dc">📎 Documentos sección VII</button><button id="bc">🧾 Boletas</button><button id="sb">⚖ Situación final</button><button id="nm">📘 Normas de promoción</button><button id="ex">📊 Exportar a Excel (.xlsx)</button><button id="bk">💾 Respaldo JSON</button><label class="btn">📂 Restaurar respaldo<input id="rsf" type="file" accept=".json,application/json" hidden></label><button id="cl" class="dng">🗑 Borrar todo</button></div>
 <div id="dw"><div class="tb"><label class="btn">📎 Subir documentos<input id="df" type="file" multiple accept=".pdf,image/*,.doc,.docx,.xls,.xlsx,.ppt,.pptx" hidden></label><button id="dcl">✖ Cerrar</button><span id="dlog"></span></div><div id="dbody"></div></div>
+<div id="nw"><div class="tb"><button id="ncl">✖ Cerrar</button><span style="font-size:12px">Normas: promoción, recuperación y permanencia (5.°)</span></div><div id="nbody"></div></div>
 <div id="sw"><div class="tb"><button id="scl">✖ Cerrar</button><span style="font-size:12px">Situación final (referencial)</span></div><div id="sbody"></div></div>
 <div id="bw"><div class="tb"><select id="bsel"></select><label style="font-size:12px"><input type="checkbox" id="bcon" checked> Conclusión en A/AD</label><button id="bgen">Generar boletas</button><button id="bpr">🖨 Imprimir / PDF</button><a class="btn" href="https://cdn.www.gob.pe/uploads/document/file/662983/RVM_N__094-2020-MINEDU.pdf" target="_blank" rel="noopener">📥 Formato MINEDU (Anexo 03, pág. 47)</a><a class="btn" href="https://www.gob.pe/institucion/minedu/normas-legales/5518274-048-2024-minedu" target="_blank" rel="noopener">📥 RVM 048-2024</a><button id="bcl">✖ Cerrar</button><span id="bnote"></span></div><div id="bbody"></div></div>
 <div id="rw"><div class="tb"><button id="rpr">🖨 Imprimir / Guardar PDF</button><button id="rcl">✖ Cerrar</button><span id="rnote"></span></div><div id="rep" contenteditable="true"></div></div>
@@ -287,21 +297,67 @@ $('bpr').onclick=()=>window.print();$('bcl').onclick=()=>{$('bw').style.display=
 const TRANS=new Set(['0006-DESEN TIC','0007-GEST AUTO']);
 const SITL={PRO:'PROMOVIDO',PER:'PERMANECE EN EL GRADO',RR:'REQUIERE RECUPERACIÓN PEDAGÓGICA','':'Pendiente de confirmación del docente'};
 const ORD=()=>AREAS.map((a,i)=>i).sort((x,y)=>(TRANS.has(AREAS[x].sheet)?1:0)-(TRANS.has(AREAS[y].sheet)?1:0)||x-y);
-function refStatus(s){let miss=0,tot=0,cAreas=0,areasOk=0,nonCnotB=false,cN=0,nA=0;const fa=[];
- AREAS.forEach(a=>{if(TRANS.has(a.sheet)||(META.na&&META.na[a.sheet]))return;const d=(S[a.sheet]||{})[s.id]||{};const n=a.comps.length;let okc=0,cc=0,mm=0;
-  a.comps.forEach(c=>{tot++;const r=d[c[0]];if(!r){miss++;mm++;return}if(r.nl==='C'){cc++;cN++}else{okc++;if(r.nl!=='B')nonCnotB=true}});
-  if(mm)fa.push(a.name);nA++;if(okc>=Math.ceil(n/2))areasOk++;if(cc>n/2)cAreas++});
- let st='INC';if(!miss)st=areasOk===nA?'PRO':(cAreas>=4&&!nonCnotB?'PER':'RR');
- return{st,miss,tot,areasOk,nA,cAreas,cN,fa}}
+function refStatus(s){let miss=0,tot=0,nA=0;const fa=[],fl=[];let lim=false;
+ AREAS.forEach(a=>{if(TRANS.has(a.sheet)||(META.na&&META.na[a.sheet]))return;const d=(S[a.sheet]||{})[s.id]||{};const n=a.comps.length;let cc=0,mm=0;const nb=[];
+  a.comps.forEach(c=>{tot++;const r=d[c[0]];if(!r){miss++;mm++;return}if(r.nl==='C')cc++;else if(r.nl!=='B')nb.push(r.nl)});
+  nA++;if(mm){fa.push(a.name);return}
+  if(cc*2>n)fl.push({name:a.name,cc,n});else if(cc||nb.length)lim=lim||cc>0||nb.length>0});
+ let st='INC';if(!miss)st=fl.length===0?'PRO':(fl.length>=4?'PER':'RR');
+ return{st,miss,tot,nA,fa,fl,nFail:fl.length,areasOk:nA-fl.length,lim:(st==='PER'&&lim)}}
 function refTxt(r){if(r.st==='INC')return 'Datos incompletos: faltan '+r.miss+' de '+r.tot+' competencias. Áreas con faltantes: '+r.fa.join(', ')+'.';
- return {PRO:'Cumpliría la condición de promoción',PER:'Cumpliría la condición de permanencia',RR:'No cumple promoción ni permanencia: requeriría recuperación'}[r.st]+' ('+r.areasOk+' de '+r.nA+' áreas con B o más en la mitad o más de sus competencias).'}
+ const fl=r.fl.map(f=>f.name+' ('+f.cc+' de '+f.n+' en C)').join('; ');
+ if(r.st==='PRO')return 'Cumpliría la promoción: ninguna área tiene C en más de la mitad de sus competencias ('+r.nA+' áreas revisadas).';
+ if(r.st==='RR')return 'Requeriría recuperación: no cumple la promoción en '+r.nFail+' área(s) ('+fl+'); la permanencia exige 4 o más.';
+ return 'Cumpliría la permanencia: no cumple la promoción en '+r.nFail+' áreas ('+fl+').'+(r.lim?' ⚠ Caso límite: la norma dice “B en las demás competencias” y aquí hay otras en C, A o AD; confírmalo en el SIAGIE o con tu UGEL antes de elegir.':'')}
 function sitHtml(s){const v=(META.sit||{})[s.id]||'';return '<table><tr><th style="width:150px">Situación final</th><td><b>'+SITL[v]+'</b><br><span style="font-size:9px;color:#444">Se define al cierre del período lectivo con el último nivel de logro de cada competencia y se oficializa en el Acta Oficial de Evaluación del SIAGIE (RVM N.° 094-2020-MINEDU y RVM N.° 048-2024-MINEDU).</span></td></tr></table>'}
 function situacionHtml(){const c={PRO:0,PER:0,RR:0,'':0};STU.forEach(s=>c[(META.sit||{})[s.id]||'']++);
  return '<p><b>Situación final de los estudiantes (RVM N.° 094-2020-MINEDU, ciclo V, 5.° grado)</b></p><p style="text-align:justify">La situación final se define al cierre del período lectivo con el último nivel de logro de cada competencia (RVM N.° 048-2024-MINEDU); las competencias transversales no se toman en cuenta. Confirmada por el docente: promovidos '+c.PRO+', permanecen en el grado '+c.PER+', requieren recuperación '+c.RR+', pendientes de confirmación '+c[''] +'.</p>'}
-function renderSit(){let h='<p style="color:var(--mut);font-size:12px;margin:0 0 10px">Verificación referencial para 5.° grado de primaria (ciclo V), RVM N.° 094-2020-MINEDU: <b>promovido</b> si alcanza B o más en la mitad o más de las competencias de todas las áreas; <b>permanece</b> si tiene C en más de la mitad de las competencias de cuatro áreas y B en las demás; en otro caso <b>requiere recuperación</b>. La decisión final es del docente: confírmala con el selector. No se tienen en cuenta las competencias transversales. Se evalúa con el último nivel de logro de cada competencia.</p>';
+function renderSit(){let h='<p style="color:var(--mut);font-size:12px;margin:0 0 10px">Verificación referencial para 5.° grado (RVM N.° 094-2020-MINEDU): <b>promovido</b> si ninguna área tiene C en más de la mitad de sus competencias; <b>requiere recuperación</b> si eso ocurre en 1 a 3 áreas; <b>permanece</b> si ocurre en 4 o más. La situación oficial la genera el SIAGIE con los niveles que registres; esta pantalla solo te orienta. <button id="nrm2" style="margin-top:6px">📘 Ver normas de promoción</button></p>';
  STU.forEach(s=>{const r=refStatus(s),v=(META.sit||{})[s.id]||'';h+='<div class="dcat"><b>'+esc(pn(s.name))+'</b><div class="gd">'+refTxt(r)+'</div><select data-sid="'+attr(s.id)+'">'+[['','Pendiente de confirmación'],['PRO','Promovido'],['PER','Permanece en el grado'],['RR','Requiere recuperación']].map(o=>'<option value="'+o[0]+'"'+(o[0]===v?' selected':'')+'>'+o[1]+'</option>').join('')+'</select></div>'});
- $('sbody').innerHTML=h}
-$('sb').onclick=()=>{renderSit();$('sw').style.display='block';$('sw').scrollTop=0};$('scl').onclick=()=>{$('sw').style.display='none'};
+ $('sbody').innerHTML=h;$('nrm2').onclick=openNorm}
+$('sb').onclick=()=>{renderSit();$('nrm2').onclick=openNorm;$('sw').style.display='block';$('sw').scrollTop=0};$('scl').onclick=()=>{$('sw').style.display='none'};
+
+function normHtml(){
+ const ar=AREAS.filter(a=>!TRANS.has(a.sheet)&&!(META.na&&META.na[a.sheet]));
+ const rows=ar.map(a=>{const n=a.comps.length,min=Math.ceil(n/2),fail=Math.floor(n/2)+1;return '<tr><td class="l">'+esc(a.name)+'</td><td>'+n+'</td><td><b>'+min+'</b> o más en B/A/AD</td><td><b>'+fail+'</b> o más en C</td></tr>'}).join('');
+ let c={PRO:0,PER:0,RR:0,INC:0};const lst={PER:[],RR:[]};STU.forEach(s=>{const r=refStatus(s);c[r.st]++;if(lst[r.st])lst[r.st].push(pn(s.name)+' ('+r.nFail+' área'+(r.nFail>1?'s':'')+')')});
+ const nm=a=>a.length?'<ul>'+a.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>':'';
+ return '<h2>5.° grado de primaria · ciclo V</h2><p style="color:var(--mut);font-size:12px">Fuente: RVM N.° 094-2020-MINEDU (numeral 5.1.3). La RVM N.° 048-2024-MINEDU cambió solo las filas de Secundaria; la regla de 5.° de primaria sigue como en la RVM 094-2020. Hasta donde pude verificar, ambas siguen vigentes en 2026. Si tu UGEL te comunica una norma nueva, esa manda.</p><button id="gosim" class="pri">🎮 Ir al simulador</button>'+
+ '<div class="nc b"><h3>🔎 Cómo se decide (en este orden)</h3><ul><li>Se usa el <b>último nivel de logro</b> de cada competencia (no el promedio).</li><li><b>No cuentan</b> las competencias transversales (TIC y autonomía) ni las áreas que no se dictan.</li><li>1.° ¿cumple la promoción? → <b>Promovido</b>. 2.° Si no, ¿cumple la permanencia? → <b>Permanece</b>. 3.° Si no cumple ninguna → <b>Requiere recuperación</b>.</li></ul></div>'+
+ '<div class="nc g"><h3>🟢 PROMOVIDO (PRO)</h3><p>Alcanza <b>B o más</b> (B, A o AD) en <b>la mitad o más</b> de las competencias de <b>cada una de las áreas</b>. En las demás competencias puede tener C.</p><p><b>Clave:</b> basta con que <b>una sola área</b> tenga C en más de la mitad de sus competencias para que <b>no</b> cumpla la promoción.</p></div>'+
+ '<div class="nc o"><h3>🟠 REQUIERE RECUPERACIÓN (RR)</h3><p>Cuando <b>no cumple la promoción ni la permanencia</b>. En la práctica: falla la promoción en <b>1, 2 o 3 áreas</b>.</p><ul><li>Recibe acompañamiento o recuperación pedagógica <b>antes del inicio del siguiente año escolar</b>.</li><li>Al terminar, para pasar de grado debe cumplir la <b>misma condición de promoción</b> (B o más en la mitad o más de cada área). Si no la cumple, <b>permanece</b> en el grado.</li><li>Si ya promovido sigue con C en alguna competencia, recibe acompañamiento diferenciado el año siguiente (se espera al menos B hasta diciembre).</li></ul></div>'+
+ '<div class="nc r"><h3>🔴 PERMANECE EN EL GRADO (PER)</h3><p>La norma dice: <b>C en más de la mitad de las competencias de cuatro áreas</b> y “<b>B en las demás competencias</b>”. En la práctica: falla la promoción en <b>4 o más áreas</b>.</p><div class="nw2">⚠ La frase “B en las demás” no aclara qué pasa si en las otras competencias tiene C, A o AD. Si un estudiante está en 4 áreas con C pero tiene algo distinto de B en el resto, <b>confírmalo en el SIAGIE o con tu UGEL</b> antes de marcar “Permanece”.</div></div>'+
+ '<div class="nc b"><h3>📊 Resumen por número de áreas que fallan</h3><table><tr><th>Áreas que fallan</th><th>Situación</th></tr><tr><td>0</td><td>Promovido</td></tr><tr><td>1, 2 o 3</td><td>Requiere recuperación</td></tr><tr><td>4 o más</td><td>Permanece (ver aviso)</td></tr></table><p style="font-size:12px;color:var(--mut)">Un área “falla” cuando tiene C en <b>más de la mitad</b> de sus competencias.</p></div>'+
+ '<div class="nc b"><h3>🧮 Cuántas competencias deciden en cada área (tu grupo)</h3><table><tr><th>Área</th><th>Comp.</th><th>Para cumplir</th><th>Falla con</th></tr>'+rows+'</table><p style="font-size:12px;color:var(--mut)">Ejemplo: Matemática tiene 4 competencias: con 2 en B o más cumple; con 3 en C falla. Comunicación tiene 3: con 2 en B o más cumple; con 2 en C falla.</p></div>'+
+ '<div class="nc b" id="simc"><h3>🎮 Simulador de situación final</h3><p style="font-size:12px;color:var(--mut)">Toca el nivel de cada competencia y mira al instante qué situación resultaría. Puedes partir de cero o cargar a un estudiante real y probar “qué pasaría si…”. <b>No cambia tus notas.</b></p><div id="simb"></div></div>'+
+ '<div class="nc b"><h3>🧪 Ejemplos</h3><ul><li>C en Matemática y Comunicación (más de la mitad en cada una) y B o más en el resto → falla 2 áreas → <b>Requiere recuperación</b>.</li><li>Todas las áreas con B o más en la mitad, pero 1 competencia en C en Personal Social → <b>Promovido</b>.</li><li>C mayoritario en 4 áreas o más → <b>Permanece</b> (revisa el aviso).</li></ul></div>'+
+ '<div class="nc b"><h3>🧾 Casos especiales</h3><ul><li><b>Discapacidad leve o moderada:</b> la permanencia puede extenderse hasta 2 años sobre la edad normativa; requiere acuerdo entre la familia y la IE y un documento sustentatorio (RVM 048-2024).</li><li>Al terminar el periodo lectivo <b>todas las competencias deben tener nivel de logro</b>; con datos faltantes no se puede definir la situación.</li><li>Si registras C en dos periodos seguidos, la norma pide sustentar en la conclusión descriptiva por qué no hay avance.</li></ul></div>'+
+ '<div class="nc o"><h3>🛡 Para no contradecir al SIAGIE</h3><ul><li>La situación oficial la calcula el <b>SIAGIE</b> con los niveles de logro que registres. Lo que debe coincidir son <b>los niveles registrados</b>, no lo que marques aquí.</li><li>Antes del cierre, pasa al SIAGIE el <b>último nivel de cada competencia</b> (incluidas las de Educación Física, Inglés y Religiosa si corresponden) y compara con esta app.</li><li>Si el SIAGIE muestra otra situación, revisa primero un nivel mal digitado o una competencia sin registrar.</li><li>Según la Norma Técnica 2026, el último periodo termina el 18 de diciembre y del 21 al 31 es el cierre y la evaluación final.</li></ul></div>'+
+ '<div class="nc"><h3>📋 Tu grupo hoy (según lo registrado)</h3><p>Promovidos: <b>'+c.PRO+'</b> · Recuperación: <b>'+c.RR+'</b> · Permanencia: <b>'+c.PER+'</b> · Datos incompletos: <b>'+c.INC+'</b></p>'+(lst.RR.length?'<p><b>Requerirían recuperación:</b></p>'+nm(lst.RR):'')+(lst.PER.length?'<p><b>Permanecerían (revisar):</b></p>'+nm(lst.PER):'')+'<p style="font-size:12px;color:var(--mut)">Es referencial: cambia cada vez que registras notas.</p></div>'+
+ '<p style="font-size:12px;color:var(--mut)">Esta pantalla resume la norma para orientarte; no reemplaza el texto oficial ni la decisión del docente y la IE.</p>'}
+
+let SIM={},SIMS='',SIMM=0;
+const simAreas=()=>AREAS.filter(a=>!TRANS.has(a.sheet)&&!(META.na&&META.na[a.sheet]));
+function simInit(sid){SIM={};SIMS=sid||'';SIMM=0;simAreas().forEach(a=>a.comps.forEach(c=>{const r=sid?((S[a.sheet]||{})[sid]||{})[c[0]]:null;if(sid&&!r)SIMM++;SIM[a.sheet+'|'+c[0]]=r?r.nl:'B'}))}
+function simEval(){const rows=[];simAreas().forEach(a=>{const n=a.comps.length;let cc=0,bp=0,oth=false;a.comps.forEach(c=>{const v=SIM[a.sheet+'|'+c[0]]||'B';if(v==='C')cc++;else bp++;if(v!=='B')oth=true});rows.push({a,n,cc,bp,fail:cc*2>n,need:Math.max(0,Math.ceil(n/2)-bp),oth})});
+ const nf=rows.filter(r=>r.fail).length,st=nf===0?'PRO':nf>=4?'PER':'RR';return{rows,nf,st,lim:st==='PER'&&rows.some(r=>!r.fail&&r.oth)}}
+function renderSim(){const el=$('simb');if(!el)return;const E=simEval();
+ const L={PRO:['🟢 PROMOVIDO','g'],RR:['🟠 REQUIERE RECUPERACIÓN','o'],PER:['🔴 PERMANECE EN EL GRADO','r']}[E.st];
+ let h='<select id="sims"><option value="">Empezar desde cero (todo en B)</option>'+STU.map(s=>'<option value="'+s.id+'"'+(String(s.id)===SIMS?' selected':'')+'>'+esc(pn(s.name))+'</option>').join('')+'</select>'+
+ (SIMM?'<p style="font-size:12px;color:var(--mut)">'+SIMM+' competencia(s) sin registro se pusieron en B.</p>':'')+
+ '<div class="sbt"><button data-sa="B">Todo B</button><button data-sa="C">Todo C</button><button data-sa="A">Todo A</button></div>';
+ h+='<div class="nc '+L[1]+'" style="margin:8px 0"><b style="font-size:15px">'+L[0]+'</b><br>Áreas que fallan: <b>'+E.nf+'</b> de '+E.rows.length+(E.nf?' ('+E.rows.filter(r=>r.fail).map(r=>esc(r.a.name)).join('; ')+')':'')+
+  (E.st==='RR'?'<br><span style="font-size:13px">Para ser promovido después de la recuperación debe llegar a B o más en: '+E.rows.filter(r=>r.fail).map(r=>esc(r.a.name)+' (+'+r.need+')').join('; ')+'.</span>':'')+
+  (E.st==='PRO'?'<br><span style="font-size:13px">Ninguna área tiene C en más de la mitad de sus competencias.</span>':'')+
+  (E.st==='PER'?'<br><span style="font-size:13px">Falla 4 o más áreas.'+(E.lim?' ⚠ Hay otras competencias distintas de B: caso límite, confírmalo en el SIAGIE o con tu UGEL.':'')+'</span>':'')+'</div>';
+ E.rows.forEach(r=>{h+='<div class="sa'+(r.fail?' f':'')+'"><div class="t"><span>'+esc(r.a.name)+'</span><span class="bd2 '+(r.fail?'f':'ok')+'">'+(r.fail?'✖ falla':'✔ cumple')+' · '+r.cc+' de '+r.n+' en C</span></div>';
+  r.a.comps.forEach(c=>{const k=r.a.sheet+'|'+c[0],v=SIM[k]||'B';h+='<div class="sc"><span>'+c[0]+' · '+esc(c[1])+'</span><div class="pl">'+['C','B','A','AD'].map(x=>'<button data-k="'+attr(k)+'" data-v="'+x+'" class="'+(x===v?'on ':'')+x+'">'+x+'</button>').join('')+'</div></div>'});h+='</div>'});
+ el.innerHTML=h}
+function openNorm(){simInit('');$('nbody').innerHTML=normHtml();renderSim();const g=$('gosim');if(g)g.onclick=()=>$('simc').scrollIntoView({behavior:'smooth'});
+ const el=$('simb');el.onclick=e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.k){SIM[b.dataset.k]=b.dataset.v}else if(b.dataset.sa){Object.keys(SIM).forEach(k=>SIM[k]=b.dataset.sa)}else return;renderSim()};
+ el.onchange=e=>{if(e.target.id==='sims'){simInit(e.target.value);renderSim()}};
+ $('nw').style.display='block';$('nw').scrollTop=0}
+$('nm').onclick=openNorm;$('ncl').onclick=()=>{$('nw').style.display='none'};
 $('sbody').onchange=e=>{const t=e.target;if(!t.dataset||!t.dataset.sid)return;META.sit=META.sit||{};if(t.value)META.sit[t.dataset.sid]=t.value;else delete META.sit[t.dataset.sid];saveMeta();bump()};
 
 render();

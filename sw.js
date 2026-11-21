@@ -1,7 +1,7 @@
 /* Registro 5.° E — Service Worker
    Cada vez que cambies VERSION, el navegador instala esta versión y BORRA todos los cachés anteriores.
    (Las notas guardadas en el celular —localStorage— no se tocan.) */
-const VERSION = '2026-11-21-2';
+const VERSION = '2026-11-21-4';
 const CACHE = 'registro5e-' + VERSION;
 const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icons/icono-192-v2.png', 'icons/icono-512-v2.png', 'icons/icono-maskable-512-v2.png', 'icons/apple-touch-icon-v2.png'];
 const CDN = [

@@ -1,7 +1,10 @@
-REGISTRO 5.° E — ACTUALIZACIÓN v2026-11-21-2
+REGISTRO 5.° E — ACTUALIZACIÓN v2026-11-21-4
 =============================================
 
 QUÉ CAMBIÓ
+000. NUEVO "🎮 Simulador de situación final" dentro de 📘 Normas de promoción: toca C/B/A/AD en cada competencia (o carga a un estudiante) y ve al instante si sería promovido, recuperación o permanece. No cambia las notas.
+00. NUEVO botón "📘 Normas de promoción": pantalla aparte con las reglas de promoción, recuperación y permanencia de 5.° grado (RVM 094-2020 y 048-2024), con tabla por área y ejemplos.
+    La verificación de "⚖ Situación final" ahora usa esa misma regla (un área falla si tiene C en más de la mitad de sus competencias: 0 áreas = promovido, 1 a 3 = recuperación, 4 o más = permanece).
 0. Nuevo ícono: "Evaluación de lectura — 5.° Grado Sección E". Los íconos tienen nombre nuevo (-v2): en GitHub BORRA la carpeta icons anterior y sube la nueva.
 1. Tabla de notas: la columna de nombres ya no tapa las evaluaciones.
    - Los nombres se ven en varias líneas, angostos, y al lado las notas (NL) y la conclusión.
@@ -11,7 +14,7 @@ QUÉ CAMBIÓ
 2. Corregido un error interno: al cambiar el estudiante en "Boletas" ya no se escribe un dato basura en el registro.
 3. Caché: sw.js borra TODOS los cachés anteriores al instalarse y la app se recarga sola con la versión nueva.
    Tus notas NO se borran (están en el navegador del celular, no en el caché).
-4. En el encabezado aparece "v2026-11-21-2" para comprobar que ya tienes la versión nueva.
+4. En el encabezado aparece "v2026-11-21-4" para comprobar que ya tienes la versión nueva.
 
 ARCHIVOS PARA GITHUB (sube TODOS, en la raíz del repositorio)
   index.html
@@ -28,7 +31,7 @@ PASOS
 2. En GitHub: borra los íconos viejos (icons/icon-192.png, icon-512.png, icon-maskable-512.png, apple-touch-icon.png) y luego repositorio > Add file > Upload files > arrastra los archivos (y la carpeta icons) > Commit changes.
    Si ya existen, GitHub los reemplaza.
 3. Espera 1 o 2 minutos a que GitHub Pages publique.
-4. En el celular abre la app, ciérrala por completo y vuelve a abrirla (2 veces). Debe decir v2026-11-21-2 arriba.
+4. En el celular abre la app, ciérrala por completo y vuelve a abrirla (2 veces). Debe decir v2026-11-21-4 arriba.
 5. Si sigue la versión vieja: cierra la app, ábrela otra vez con internet. NO uses "Borrar datos del sitio":
    eso sí borraría tus notas (si lo haces, usa "📂 Restaurar respaldo").
 
